@@ -9,7 +9,7 @@
 */
 
 // Konsolen-Ausgaben
-// console.log("Hi");
+console.log("Hi");
 // console.log(firstName);
 
 
