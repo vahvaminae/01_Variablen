@@ -47,6 +47,19 @@
 // firstName = "Maxime";
 // console.log(firstName); // Ausgabe
 
-const firstName; // variable mit konstanten Inhalt
-firstName = "Maxime";// keine neue zuweisung zur LZ möglich
-console.log(firstName); // Ausgabe
+// const firstName; // variable mit konstanten Inhalt
+// firstName = "Maxime";// keine neue zuweisung zur LZ möglich
+// console.log(firstName); // Ausgabe
+
+//Deklaration
+
+let ageJohn, ageMarc;
+const birthYearJohn = 2000;
+const birthYearMarc = 1990;
+
+let year = 2023;
+ageJohn = year - birthYearJohn
+ageMarc = year - birthYearMarc
+
+console.log("ageJohn: " + ageJohn)
+console.log("ageMarc: " + ageMarc)
