@@ -53,13 +53,19 @@
 
 //Deklaration
 
-let ageJohn, ageMarc;
-const birthYearJohn = 2000;
-const birthYearMarc = 1990;
+// let ageJohn, ageMarc;
+// const birthYearJohn = 2000;
+// const birthYearMarc = 1990;
 
-let year = 2023;
-ageJohn = year - birthYearJohn
-ageMarc = year - birthYearMarc
+// let year = 2023;
+// ageJohn = year - birthYearJohn
+// ageMarc = year - birthYearMarc
 
-console.log("ageJohn: " + ageJohn)
-console.log("ageMarc: " + ageMarc)
+// console.log("ageJohn: " + ageJohn)
+// console.log("ageMarc: " + ageMarc)
+
+let date = new Date();
+let year = date.getFullYear();
+// console.log(date);
+console.log(year);
+
