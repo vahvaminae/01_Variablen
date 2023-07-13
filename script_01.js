@@ -34,12 +34,19 @@
 // console.log(firstName + " " + familyName); 
 
 /* JS ist eine untypisierte Sprache! | untyped */
-let test;
-test ="Maxime";
-test =2;
-test = false;
+// let test;
+// test ="Maxime";
+// test =2;
+// test = false;
 
-console.log("Datentypen: "+ typeof test);
-console.log("Inhalt: " + test);
+// console.log("Datentypen: "+ typeof test);
+// console.log("Inhalt: " + test);
 
+// let firstName = "Max"; // Deklaration (Definition) + Werzuweisung //let teilt dem Compiler mit, wenn man die Bezeichnung
+// //firstname verwendet, dann zeigt er an, dass man nur diesen Speicherbereich meint
+// firstName = "Maxime";
+// console.log(firstName); // Ausgabe
 
+const firstName; // variable mit konstanten Inhalt
+firstName = "Maxime";// keine neue zuweisung zur LZ möglich
+console.log(firstName); // Ausgabe
